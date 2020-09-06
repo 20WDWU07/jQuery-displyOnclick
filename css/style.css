@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+  color: brown;
+}
+h1{
+  color:white;
+  margin-bottom: 20px;
+}
+button{
+  width: 120px;
+  height:40px;
+  display:block;
+  margin: 30px auto;
+}
+.row{
+  width:80%;
+  margin:auto;
+
+}
+.col{
+  width:40%;
+  margin: 5%;
+  float:left;
+}
+.row:after{
+  clear: both;
+  display:table;
+  content:"";
+}
+.menu-img{
+  width: 100%;
+}
+.cart{
+  font-size: 40px;
+  color:white;
+}
