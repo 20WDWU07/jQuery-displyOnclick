@@ -12,9 +12,13 @@
 
 
       <header>
-        <i class="fas fa-shopping-cart"></i>
+
+        <button id="back" type="button" name="button">Back</button>
+        <i id="cartIcon" class="fas fa-shopping-cart cartIcon"></i>
+
       </header>
       <main>
+        <div id="menu">
       <div class="row">
         <div class="col">
           <img  class="menu-img" src="images/burger.jpeg" alt="Burger">
@@ -27,7 +31,7 @@
             atque enim voluptate tempore consequatur. Quod
             similique nostrum ab saepe autem!</p>
 
-            <pre>Price: <span id="ChickenBurgerPrice"> 17.50 </pre>
+            <pre>Price: <span id="ChickenBurgerPrice" class="itemPrice"> 17.50 </pre>
             <button id="Chicken Burger" class="menu-button" type="button" name="button">Add</button>
         </div>
       </div>
@@ -43,10 +47,43 @@
             doloremque! Fuga cum reiciendis culpa excepturi
             atque enim voluptate tempore consequatur. Quod
             similique nostrum ab saepe autem!</p>
+            <pre>Price: <span id="vegBurgerPrice" class="itemPrice"> 12.50 </span></pre>
             <button id="Veg Burger" class="menu-button" type="button" name="button">Add</button>
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <img  class="menu-img" src="images/burger.jpeg" alt="Burger">
+        </div>
+        <div class="col">
+          <h1  class="menu-heading">Beef Burger</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Eligendi quam magnam obcaecati mollitia
+            doloremque! Fuga cum reiciendis culpa excepturi
+            atque enim voluptate tempore consequatur. Quod
+            similique nostrum ab saepe autem!</p>
 
+            <pre>Price: <span id="BeefBurgerPrice" class="itemPrice"> 13.50 </pre>
+            <button id="Beef Burger" class="menu-button" type="button" name="button">Add</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img  class="menu-img" src="images/burger.jpeg" alt="Burger">
+        </div>
+        <div class="col">
+          <h1  class="menu-heading"> Burger</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Eligendi quam magnam obcaecati mollitia
+            doloremque! Fuga cum reiciendis culpa excepturi
+            atque enim voluptate tempore consequatur. Quod
+            similique nostrum ab saepe autem!</p>
+
+            <pre>Price: <span id="BurgerPrice" class="itemPrice"> 10.50 </pre>
+            <button id="Burger" class="menu-button" type="button" name="button">Add</button>
+        </div>
+      </div>
+    </div>
 
       <div id="cart" class="row cart">
         <h1>Your order</h1>
@@ -56,6 +93,10 @@
         <div id="price" class="col price">
           <h3> Price </h3>
         </div>
+        <button id="calculate">Calculate</button>
+        <h3> Total amount:  <span id="amount"> </span></h3>
+
+
       </div>
     </main>
 

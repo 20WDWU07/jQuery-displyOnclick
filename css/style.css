@@ -6,7 +6,7 @@
 
 body{
   background: black;
-  color: brown;
+  color: white;
 }
 main{
   width: 80%;
@@ -17,10 +17,12 @@ header{
   height:100px;
   background: brown;
 }
-.fas{
+
+.cartIcon{
   font-size: 40px;
   color:white;
   margin:10px 20px;
+  float:right;
 }
 
 h1{
@@ -32,6 +34,8 @@ button{
   height:40px;
   display:block;
   margin: 30px auto;
+  background: brown;
+  color:white;
 }
 .row{
   width:100%;
@@ -43,7 +47,7 @@ button{
   margin: 5%;
   float:left;
 }
-.row:after{
+.row:after, header:after{
   clear: both;
   display:table;
   content:"";
@@ -53,5 +57,24 @@ button{
 }
 .cart{
   font-size: 20px;
+
+}
+
+pre{
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.itemPrice{
   color:white;
+}
+
+#amount{
+  color:white;
+  margin-left: 210px;
+}
+
+#back{
+  float:left;
+  margin:10px 20px;
 }
