@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('.menu-button').on('click', function(){
      console.log(this.id);
     var itemName = this.id; //stogin the value to a variable
-    $('#cart').append ('<br>' + itemName);
-
+    $('#items').append ('<br>' + itemName);
+    $('#price').append ('<br>' + itemName);
   });
 });
