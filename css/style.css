@@ -47,13 +47,14 @@ button{
   margin: 5%;
   float:left;
 }
-.row:after, header:after{
+.row:after, header:after, .totalAmount:after{
   clear: both;
   display:table;
   content:"";
 }
 .menu-img{
   width: 100%;
+  border:1px solid brown;
 }
 .cart{
   font-size: 20px;
@@ -71,8 +72,10 @@ pre{
 
 #amount{
   color:white;
-  margin-left: 210px;
+
+  /* border:1px solid white; */
 }
+
 
 #back{
   float:left;
